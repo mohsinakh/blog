@@ -163,6 +163,29 @@ const About: React.FC = () => {
                 <p className="text-blue-600 dark:text-blue-400 mt-1 font-medium tracking-wide">
                   India
                 </p>
+
+                
+                {/* Portfolio & LinkedIn Links */}
+                  <div className="flex justify-center mt-4 space-x-4">
+                    <a
+                      href="https://mohsinabbas.site"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 dark:text-blue-400 font-semibold hover:underline"
+                    >
+                      🌐 Portfolio
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/mohsin-abbas-7252b126b/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 dark:text-blue-400 font-semibold hover:underline"
+                    >
+                      🔗 LinkedIn
+                    </a>
+                  </div>
+              </div>
+            </div>
               </div>
             </div>
 
